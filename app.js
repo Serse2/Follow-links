@@ -4,6 +4,7 @@ highlight.classList.add('highlight')
 document.body.appendChild(highlight)
 
 function triggerLinks(){
+  //il metodo getBoundingClientRect() restituisce la dimensione di un elemento e la sua posizione rispetto alla finestra
   let coords = this.getBoundingClientRect()
 
   let objCoords = {
